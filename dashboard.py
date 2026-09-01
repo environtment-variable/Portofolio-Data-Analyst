@@ -7,7 +7,7 @@ st.set_page_config(page_title="Dashboard Superstore", layout="wide")
 st.title("📊 Dashboard Analisis Penjualan Superstore")
 
 # Load data
-df = pd.read_csv('/home/roboto/Downloads/superstore_data/train.csv')
+df = pd.read_csv('data/train.csv')
 df = df.drop_duplicates().fillna(0)
 
 # Sidebar Filter
